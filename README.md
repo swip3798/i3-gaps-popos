@@ -3,6 +3,8 @@ This is a fork of i3-gaps-deb to run on Pop_!OS. It simply skips the sources che
 
 Tool to create and install Pop_!OS packages of _i3-gaps_.
 
+I highly recommend installing i3 beforehand and upgrading with this tool to i3-gaps after installing and running.
+
 ## How does it work?
 It uses the newest stuff from [here](https://github.com/Airblader/i3),
 makes some modifications (only if necessary for the _building step_)

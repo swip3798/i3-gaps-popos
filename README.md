@@ -1,5 +1,6 @@
 # i3-gaps-popos
-This is a fork of i3-gaps-deb to run on popos. It simply skips the sources check since those are already maintained on Pop_!OS.
+This is a fork of i3-gaps-deb to run on Pop_!OS. It simply skips the sources check since those are already maintained on Pop_!OS.   
+
 Tool to create and install Pop_!OS packages of _i3-gaps_.
 
 ## How does it work?

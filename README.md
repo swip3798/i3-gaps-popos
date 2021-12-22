@@ -1,5 +1,6 @@
-# i3-gaps-deb
-Tool to create and install Debian packages of _i3-gaps_.
+# i3-gaps-popos
+This is a fork of i3-gaps-deb to run on popos. It simply skips the sources check since those are already maintained on Pop_!OS.
+Tool to create and install Pop_!OS packages of _i3-gaps_.
 
 ## How does it work?
 It uses the newest stuff from [here](https://github.com/Airblader/i3),
@@ -10,14 +11,14 @@ and finally produces common Debian packages.
 _i3-gaps_ simply does not exist in Debian (so far).
 
 ## How do I use it?
-    $ git clone git@github.com:maestrogerardo/i3-gaps-deb.git
-    $ cd i3-gaps-deb
+    $ git clone https://github.com/swip3798/i3-gaps-popos.git
+    $ cd i3-gaps-popos
     $ ./i3-gaps-deb
     $ # Follow the interactive prompts.
 
 ## Works for what?
-  - Debian "stable" _and later_.
-  - Everything derived from above (e.g. Ubuntu).
+  - Pop_!OS 21.10
+  - Probably on older versions as well
 
 ## Credits
 Thanks to [stapelberg](https://github.com/stapelberg) for creating
